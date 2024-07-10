@@ -1,0 +1,52 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Functions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #181818;
+            color:whitesmoke
+        }
+    </style>
+</head>
+<body>
+    <h2>Functions of SQL</h2>
+    <ul>
+        <li>
+            <strong>CREATE:</strong> The CREATE statement in SQL is used to create new databases, tables, indexes, or views. It specifies the structure and attributes of the new entity, such as column definitions for tables or index type for indexes. For example, CREATE TABLE creates a new table with specified columns and their data types.
+        </li>
+        <li>
+            <strong>DROP:</strong> DROP is a SQL statement that removes existing databases, tables, indexes, or views from a database. It is used to delete unwanted or no longer needed database objects. For example, DROP TABLE removes a table and all its data from the database permanently.
+        </li>
+        <li>
+            <strong>ALTER:</strong> ALTER statement is used to modify existing database objects like tables and views. It allows changing the structure of a table by adding, modifying, or dropping columns. For example, ALTER TABLE ADD COLUMN adds a new column to an existing table.
+        </li>
+        <li>
+            <strong>ADD:</strong> ADD in SQL is typically used with the ALTER TABLE statement to add new columns to an existing table. It specifies the new column name, data type, and optionally default values or constraints. This operation is useful for expanding the schema of a table without recreating it.
+        </li>
+        <li>
+            <strong>UPDATE:</strong> UPDATE statement modifies existing data in a table. It changes values of specified columns in one or more rows that meet the specified condition. For example, UPDATE Customers SET City='New York' WHERE CustomerID=1 updates the City column for the customer with CustomerID 1.
+        </li>
+        <li>
+            <strong>SET:</strong> SET is used in conjunction with the UPDATE statement in SQL to specify which columns should be updated and to what values. It assigns new values to the specified columns based on the condition specified in the UPDATE statement.
+        </li>
+        <li>
+            <strong>INSERT:</strong> INSERT statement adds new rows of data into a table. It specifies the table name and the values to be inserted into each column. For example, INSERT INTO Employees (FirstName, LastName, Age) VALUES ('John', 'Doe', 30) inserts a new employee record into the Employees table.
+        </li>
+        <li>
+            <strong>SELECT:</strong> SELECT retrieves data from one or more tables in a database. It specifies which columns to retrieve and can include filtering conditions, sorting, and grouping. For example, SELECT * FROM Products WHERE Category='Electronics' retrieves all products in the Electronics category from the Products table.
+        </li>
+    </ul>
+    <h2>Output:</h2>
+    <img src="j1.1.png">
+    <img src="j1.2.png">
+    <img src="j1.3.png">
+</body>
+</html>
